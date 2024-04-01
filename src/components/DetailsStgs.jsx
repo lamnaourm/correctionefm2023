@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
-export default function DetailsStgs() {
+export default function DetailsStgs({log}) {
+
+    const navigate = useNavigate()
 
     const {nom} = useParams();
     const s = useSelector(state => state.stgs.find(s => s.nom === nom))

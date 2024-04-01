@@ -9,12 +9,14 @@ const StgSlice = createSlice({
                 image:'https://i.pinimg.com/564x/0a/a8/58/0aa8581c2cb0aa948d63ce3ddad90c81.jpg',
                 nom:'zaid1',
                 prenom:'riad1',
+                pass:'1234',
                 filiere:'Dev'
             },
             {
                 image:'https://i.pinimg.com/564x/0a/a8/58/0aa8581c2cb0aa948d63ce3ddad90c81.jpg',
                 nom:'zaid2',
                 prenom:'riad2',
+                pass:'4567',
                 filiere:'Dev'
             }
         ]

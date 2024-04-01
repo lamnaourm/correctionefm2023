@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { addStag } from '../redux/StgSlice'
 import { useNavigate } from 'react-router-dom'
 
-export default function AddStgs({log}) {
+export default function AddStgs() {
     const [image, setImage] = useState()
     const [nom, setNom] = useState()
     const [prenom, setPrenom] = useState()

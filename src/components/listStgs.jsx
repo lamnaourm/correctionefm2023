@@ -4,7 +4,7 @@ import Stagiaire from './Stagiaire'
 import styles from './liststgs.module.css'
 import { useNavigate } from 'react-router-dom'
 
-export default function ListStgs({log}) {
+export default function ListStgs() {
 
     const stgs = useSelector(state => state.stgs)
     const navigate = useNavigate()

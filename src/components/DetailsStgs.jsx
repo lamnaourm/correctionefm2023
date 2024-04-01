@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom'
 
-export default function DetailsStgs({log}) {
+export default function DetailsStgs() {
 
     const navigate = useNavigate()
 

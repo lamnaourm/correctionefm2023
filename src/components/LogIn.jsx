@@ -22,8 +22,8 @@ export default function LogIn({setlog}) {
 
   return (
     <div>
-        <input type="text" value={login} onChange={(e) => setLogin(e.target.value)}/> <br />
-        <input type="text" value={pass} onChange={(e) => setPass(e.target.value)}/> <br />
+        Nom : <input type="text" value={login} onChange={(e) => setLogin(e.target.value)}/> <br />
+        Password : <input type="text" value={pass} onChange={(e) => setPass(e.target.value)}/> <br />
         <input type="button" value="Se Connecter" onClick={connecter} />
     </div>
   )
